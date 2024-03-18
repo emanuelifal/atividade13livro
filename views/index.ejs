@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Books</title>
+</head>
+<body>
+    <h1>Search Books</h1>
+    <form action="/search" method="get">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title">
+        <input type="checkbox" id="titleCheckbox" name="titleCheckbox" value="title">
+        <label for="titleCheckbox">Search by title</label><br>
+
+        <label for="year">Year:</label>
+        <input type="text" id="year" name="year">
+        <input type="checkbox" id="yearCheckbox" name="yearCheckbox" value="year">
+        <label for="yearCheckbox">Search by year</label><br>
+
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
